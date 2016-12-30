@@ -7,8 +7,7 @@ let cors = require('cors')
 let moment = require('moment')
 let helmet = require('helmet')
 let jwt = require('jsonwebtoken')
-let rootRouter = require('./router')
-let db = require('./db')
+let rootRouter = require('./routers')
 let PORT = process.env.PORT || 8000
 let request = require('request-promise')
 require('dotenv').config();
